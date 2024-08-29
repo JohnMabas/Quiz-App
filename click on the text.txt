@@ -1,0 +1,20 @@
+click on the text 
+
+//
+const correctAnswer = ['a','b','c''d']
+
+
+const form = document.querySelector('form');
+form.addEventLister('submit', function(){
+    form.name.value;
+    form.email.value;
+
+
+})
+
+<form id="form">
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <button>Submit</button>
+
+</form>
