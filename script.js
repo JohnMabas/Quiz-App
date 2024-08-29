@@ -1,6 +1,6 @@
 const form = document.querySelector('#form');
 const time = document.querySelector('#time');
-const correctAnswers= ["a","c","a","c","c"];
+const correctAnswers= ["a","c","a","c","b"];
 const result = document.querySelector('#result')
 form.addEventListener('submit', function(event){
     event.preventDefault();
